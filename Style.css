@@ -1,0 +1,92 @@
+body{
+    margin: 50px;
+    padding: 0px;
+    background-image: url(Image/home5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+   
+}
+
+.logo{
+    width: 90px;
+    float: left;   
+}
+
+ul{
+    float: right;
+    list-style: none;
+   
+}
+li{
+    display: inline-block;
+    padding-bottom: 3px;
+}
+
+a{
+    color:white;
+    margin-left: 30px;
+    text-decoration: none;
+    
+    
+    
+    
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: lightseagreen;
+    text-decoration-thickness: 3px;
+    transition-duration: 1s;
+}
+
+
+.body{
+    color:white;
+    font-family: sans-serif;
+    margin: 150px;  
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+p{
+    text-align: center; 
+    font-weight: 30px
+    ;
+
+}
+
+.button{
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    word-spacing: 10px;
+}
+
+.more{
+    font-weight: bolder;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: darkcyan;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+}
+
+.sub{
+    font-weight: bolder;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: darkcyan;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: lightseagreen;
+    transition-duration: 1s;
+}
+
+
